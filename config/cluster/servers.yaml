@@ -1,0 +1,8 @@
+template_path: servers.py
+
+parameters:
+  JMeterAmiId: {{ var.jmeter_ami_id }}
+  JMeterSecurityGroup: !stack_output cluster/security-groups.yaml::JMeterSecurityGroup
+  JMeterSubnet: {{ var.jmeter_subnet }} 
+  JMeterServerInstanceType: {{ var.jmeter_server_instance_type }}
+  JMeterKeyPair: {{ var.jmeter_key_pair }}

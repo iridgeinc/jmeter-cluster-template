@@ -1,0 +1,20 @@
+jmeter_region: ap-northeast-1
+
+# jmeter network parameters
+jmeter_vpc: <vpc id>
+jmeter_subnet: <subnet id>
+jmeter_allowed_ip: <cidr allowed to ssh>
+
+# jmeter instances parameters
+jmeter_ami_id: ami-0a3ca415c97ce604b
+jmeter_client_instance_type: t3.medium
+jmeter_server_instance_type: t3.xlarge
+jmeter_key_pair: <key pair name>
+jmeter_servers_count: 4
+
+# jmeter custom parameters
+jmeter_install_version: 5.2.1
+jmeter_heap_initial_size: 8g
+jmeter_heap_max_size: 8g
+jmeter_max_meta_space_size: 256m
+jmeter_max_open_file: 20480

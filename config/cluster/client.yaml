@@ -1,0 +1,8 @@
+template_path: client.py
+
+parameters:
+  JMeterAmiId: {{ var.jmeter_ami_id }}
+  JMeterSecurityGroup: !stack_output cluster/security-groups.yaml::JMeterSecurityGroup
+  JMeterSubnet: {{ var.jmeter_subnet }} 
+  JMeterClientInstanceType: {{ var.jmeter_client_instance_type }}
+  JMeterKeyPair: {{ var.jmeter_key_pair }}
