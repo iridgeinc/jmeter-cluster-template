@@ -1,0 +1,5 @@
+template_path: security-groups.py
+
+parameters:
+  JMeterVpc: {{ var.jmeter_vpc }} 
+  JMeterAllowedIp: {{ var.jmeter_allowed_ip }}

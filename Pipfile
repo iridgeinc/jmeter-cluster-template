@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+isort = "*"
+black = "*"
+flake8 = "*"
+mypy = "*"
+
+[packages]
+cfn-flip = "~=1.2.0"
+sceptre = "~=2.2.0"
+troposphere = "~=2.5.0"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
