@@ -1,5 +1,5 @@
 # JMeter Cluster
-By using this repository, you can deploy jmeter cluster(a client instance and some server instances) in your aws account. **This repository is featured on the iRidge Developer Blog!** [here!](https://iridge-tech.hatenablog.com/entry/<記事入れたい>)
+By using this repository, you can deploy jmeter cluster(a client instance and some server instances) in your aws account. **This repository is featured on the iRidge Developer Blog!** [here!](https://iridge-tech.hatenablog.com/entry/2020/01/21/184900)
 
 ## Usage
 ### Preparation
